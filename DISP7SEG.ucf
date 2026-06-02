@@ -1,0 +1,65 @@
+NET "seg[7]" IOSTANDARD = LVCMOS18;
+NET "seg[6]" IOSTANDARD = LVCMOS18;
+NET "seg[5]" IOSTANDARD = LVCMOS18;
+NET "seg[4]" IOSTANDARD = LVCMOS18;
+NET "seg[3]" IOSTANDARD = LVCMOS18;
+NET "seg[2]" IOSTANDARD = LVCMOS18;
+NET "seg[1]" IOSTANDARD = LVCMOS18;
+NET "seg[0]" IOSTANDARD = LVCMOS18;
+
+NET "seg[7]" LOC = H15;
+NET "seg[6]" LOC = L18;
+NET "seg[5]" LOC = T11;
+NET "seg[4]" LOC = P15;
+NET "seg[3]" LOC = K13;
+NET "seg[2]" LOC = K16;
+NET "seg[1]" LOC = R10;
+NET "seg[0]" LOC = T10;
+
+NET "an[7]" IOSTANDARD = LVCMOS18;
+NET "an[6]" IOSTANDARD = LVCMOS18;
+NET "an[5]" IOSTANDARD = LVCMOS18;
+NET "an[4]" IOSTANDARD = LVCMOS18;
+NET "an[3]" IOSTANDARD = LVCMOS18;
+NET "an[2]" IOSTANDARD = LVCMOS18;
+NET "an[1]" IOSTANDARD = LVCMOS18;
+NET "an[0]" IOSTANDARD = LVCMOS18;
+
+NET "an[7]" LOC = U13;
+NET "an[6]" LOC = K2;
+NET "an[5]" LOC = T14;
+NET "an[4]" LOC = P14;
+NET "an[3]" LOC = J14;
+NET "an[2]" LOC = T9;
+NET "an[1]" LOC = J18;
+NET "an[0]" LOC = J17;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk" IOSTANDARD = LVCMOS18;
+NET "ped_btn" IOSTANDARD = LVCMOS18;
+NET "r1" IOSTANDARD = LVCMOS18;
+NET "r2" IOSTANDARD = LVCMOS18;
+NET "enable" IOSTANDARD = LVCMOS18;
+NET "ped_signal" IOSTANDARD = LVCMOS18;
+NET "r3" IOSTANDARD = LVCMOS18;
+NET "r_ped_signal" IOSTANDARD = LVCMOS18;
+NET "reset" IOSTANDARD = LVCMOS18;
+NET "s1" IOSTANDARD = LVCMOS18;
+NET "s2" IOSTANDARD = LVCMOS18;
+NET "s3" IOSTANDARD = LVCMOS18;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = E3;
+NET "enable" LOC = J15;
+NET "ped_btn" LOC = P18;
+NET "reset" LOC = M18;
+NET "s1" LOC = H17;
+NET "r1" LOC = K15;
+NET "s2" LOC = R18;
+NET "r2" LOC = V17;
+NET "s3" LOC = V16;
+NET "r3" LOC = T15;
+NET "ped_signal" LOC = V15;
+NET "r_ped_signal" LOC = V14;
